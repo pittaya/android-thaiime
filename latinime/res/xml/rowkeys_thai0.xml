@@ -26,57 +26,60 @@
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted"
         >
             <Key
-                latin:keyLabel="&#x0E51;" />
+                latin:keyLabel="1" />
             <Key
-                latin:keyLabel="&#x0E52;" />
+                latin:keyLabel="2" />
             <Key
-                latin:keyLabel="&#x0E53;" />
+                latin:keyLabel="3" />
             <Key
-                latin:keyLabel="&#x0E39;" />
+                latin:keyLabel="4" />
             <Key
-                latin:keyLabel="&#x0E54;" />
+                latin:keyLabel="5"
+ 				latin:moreKeys="&#x0E3F;"/>
             <Key
-                latin:keyLabel="&#x0E55;" />
+                latin:keyLabel="6" />
             <Key
-                latin:keyLabel="&#x0E56;" />
+                latin:keyLabel="7" />
             <Key
-                latin:keyLabel="&#x0E57;" />
+                latin:keyLabel="8" />
             <Key
-                latin:keyLabel="&#x0E58;" />
+                latin:keyLabel="9" />
             <Key
-                latin:keyLabel="&#x0E59;" />
+                latin:keyLabel="0" />
         </case>
         <default>
             <Key
-                latin:keyLabel="-"
-                latin:keyHintLabel="&#x0E51;" />
-            <Key
                 latin:keyLabel="&#x0E20;"
-                latin:keyHintLabel="&#x0E52;" />
+                latin:keyHintLabel="1" />
             <Key
                 latin:keyLabel="&#x0E16;"
-                latin:keyHintLabel="&#x0E53;" />
+                latin:keyHintLabel="2" />
             <Key
                 latin:keyLabel="&#x0E38;"
-                latin:keyHintLabel="&#x0E39;" />
+                latin:keyHintLabel="3" />
+            <Key
+                latin:keyLabel="&#x0E39;"
+                latin:keyHintLabel="4" />
             <Key
                 latin:keyLabel="&#x0E36;"
-                latin:keyHintLabel="&#x0E54;" />
+                latin:keyHintLabel="5" />
             <Key
                 latin:keyLabel="&#x0E04;"
-                latin:keyHintLabel="&#x0E55;" />
+                latin:keyHintLabel="6"
+ 				latin:moreKeys="&#x0E05;" />
             <Key
                 latin:keyLabel="&#x0E15;"
-                latin:keyHintLabel="&#x0E56;" />
+                latin:keyHintLabel="7" />
             <Key
                 latin:keyLabel="&#x0E08;"
-                latin:keyHintLabel="&#x0E57;" />
+                latin:keyHintLabel="8" />
             <Key
                 latin:keyLabel="&#x0E02;"
-                latin:keyHintLabel="&#x0E58;" />
+                latin:keyHintLabel="9"
+ 				latin:moreKeys="&#x0E03;" />
             <Key
                 latin:keyLabel="&#x0E0A;"
-                latin:keyHintLabel="&#x0E59;" />
+                latin:keyHintLabel="0" />
         </default>
     </switch>
 </merge>

@@ -26,17 +26,13 @@
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted"
         >
             <Key
-                latin:keyLabel="&#x0E50;" />
-            <Key
-                latin:keyLabel="&quot;" />
+                latin:keyLabel="&#x0E33;" />
             <Key
                 latin:keyLabel="&#x0E0E;" />
             <Key
                 latin:keyLabel="&#x0E11;" />
             <Key
                 latin:keyLabel="&#x0E18;" />
-            <Key
-                latin:keyLabel="&#x0E4D;" />
             <Key
                 latin:keyLabel="&#x0E4A;" />
             <Key
@@ -48,27 +44,21 @@
             <Key
                 latin:keyLabel="&#x0E10;" />
             <Key
-                latin:keyLabel="," />
+                latin:keyLabel="&#x0E25;" />
         </case>
         <default>
             <Key
-                latin:keyLabel="&#x0E46;"
-                latin:keyHintLabel="&#x0E50;" />
-            <Key
                 latin:keyLabel="&#x0E44;"
-                latin:keyHintLabel="&quot;" />
-            <Key
-                latin:keyLabel="&#x0E33;"
-                latin:keyHintLabel="&#x0E0E;" />
+                latin:keyHintLabel="&#x0E33;" />
             <Key
                 latin:keyLabel="&#x0E1E;"
-                latin:keyHintLabel="&#x0E11;" />
+                latin:keyHintLabel="&#x0E0E;" />
             <Key
                 latin:keyLabel="&#x0E30;"
-                latin:keyHintLabel="&#x0E18;" />
+                latin:keyHintLabel="&#x0E11;" />
             <Key
                 latin:keyLabel="&#x0E31;"
-                latin:keyHintLabel="&#x0E4D;" />
+                latin:keyHintLabel="&#x0E18;" />
             <Key
                 latin:keyLabel="&#x0E35;"
                 latin:keyHintLabel="&#x0E4A;" />
@@ -85,8 +75,8 @@
                 latin:keyLabel="&#x0E1A;"
                 latin:keyHintLabel="&#x0E10;" />
             <Key
-                latin:keyLabel="&#x0E25;"
-                latin:keyHintLabel="," />
+                latin:keyLabel="&#x0E07;"
+                latin:keyHintLabel="&#x0E25;" />
         </default>
     </switch>
 </merge>

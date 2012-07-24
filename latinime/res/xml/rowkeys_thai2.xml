@@ -25,37 +25,27 @@
         <case
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted"
         >
-            <!-- U+0E24: "ฤ" THAI CHARACTER RU -->
             <Key
-                latin:keyLabel="&#x0E24;" />
-            <!-- U+0E06: "ฆ" THAI CHARACTER KHO RAKHANG -->
+                latin:keyLabel="&#x0E24;"
+ 				latin:moreKeys="&#x0E26;" />
             <Key
                 latin:keyLabel="&#x0E06;" />
-            <!-- U+0E0F: "ฏ" THAI CHARACTER TO PATAK -->
             <Key
                 latin:keyLabel="&#x0E0F;" />
-            <!-- U+0E0C: "ฌ" THAI CHARACTER CHO CHOE -->
+            <Key
+                latin:keyLabel="&#x0E42;" />
             <Key
                 latin:keyLabel="&#x0E0C;" />
-            <!-- U+0E29: "ษ" THAI CHARACTER SO RUSI -->
+            <Key
+                latin:keyLabel="&#x0E47;" />
+            <Key
+                latin:keyLabel="&#x0E4B;" />
             <Key
                 latin:keyLabel="&#x0E29;" />
-            <!-- U+0E28: "ศ" THAI CHARACTER SO SALA -->
             <Key
                 latin:keyLabel="&#x0E28;" />
-            <!-- U+0E0B: "ซ" THAI CHARACTER SO SO -->
             <Key
                 latin:keyLabel="&#x0E0B;" />
-            <!-- U+0E3F: "฿" THAI CURRENCY SYMBOL BAHT
-                 U+0E45: "ๅ" THAI CHARACTER LAKKHANGYAO -->
-            <Key
-                latin:keyLabel="&#x0E3F;"
-                latin:moreKeys="&#x0E45;" />
-            <!-- U+0E46: "ๆ" THAI CHARACTER MAIYAMOK
-                 U+0E2F: "ฯ" THAI CHARACTER PAIYANNOI -->
-            <Key
-                latin:keyLabel="&#x0E46;"
-                latin:moreKeys="&#x0E2F;" />
         </case>
         <default>
             <Key
@@ -81,16 +71,14 @@
                 latin:keyHintLabel="&#x0E4B;" />
             <Key
                 latin:keyLabel="&#x0E32;"
-                latin:keyHintLabel="&#x0E29;" />
+                latin:keyHintLabel="&#x0E29;"
+ 				latin:moreKeys="&#x0E45;" />
             <Key
                 latin:keyLabel="&#x0E2A;"
                 latin:keyHintLabel="&#x0E28;" />
             <Key
                 latin:keyLabel="&#x0E27;"
                 latin:keyHintLabel="&#x0E0B;" />
-            <Key
-                latin:keyLabel="&#x0E07;"
-                latin:keyHintLabel="." />
         </default>
     </switch>
 </merge>

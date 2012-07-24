@@ -26,9 +26,7 @@
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted"
         >
             <Key
-                latin:keyLabel="(" />
-            <Key
-                latin:keyLabel=")" />
+                latin:keyLabel="&#x0E1C;" />
             <Key
                 latin:keyLabel="&#x0E09;" />
             <Key
@@ -38,8 +36,6 @@
             <Key
                 latin:keyLabel="&#x0E4C;" />
             <Key
-                latin:keyLabel="\?" />
-            <Key
                 latin:keyLabel="&#x0E12;" />
             <Key
                 latin:keyLabel="&#x0E2C;" />
@@ -48,11 +44,8 @@
         </case>
         <default>
             <Key
-                latin:keyLabel="&#x0E1C;"
-                latin:keyHintLabel="(" />
-            <Key
                 latin:keyLabel="&#x0E1B;"
-                latin:keyHintLabel=")" />
+                latin:keyHintLabel="&#x0E1C;" />
             <Key
                 latin:keyLabel="&#x0E41;"
                 latin:keyHintLabel="&#x0E09;" />
@@ -67,16 +60,13 @@
                 latin:keyHintLabel="&#x0E4C;" />
             <Key
                 latin:keyLabel="&#x0E17;"
-                latin:keyHintLabel="&#x0063;" />
-            <Key
-                latin:keyLabel="&#x0E21;"
                 latin:keyHintLabel="&#x0E12;" />
             <Key
-                latin:keyLabel="&#x0E43;"
+                latin:keyLabel="&#x0E21;"
                 latin:keyHintLabel="&#x0E2C;" />
             <Key
-                latin:keyLabel="&#x0E1D;"
-                latin:keyHintLabel="&#x0E26;" />
+                latin:keyLabel="&#x0E43;"
+                latin:keyHintLabel="&#x0E1D;" />
         </default>
     </switch>
 </merge>
